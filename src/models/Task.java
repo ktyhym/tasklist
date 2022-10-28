@@ -1,4 +1,4 @@
-package controllers;
+package models;
 
 import java.sql.Timestamp;
 
@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "task")
+@Table(name = "tasks")
 public class Task {
     @Id
     @Column(name = "id")
